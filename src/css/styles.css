@@ -18,3 +18,45 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+p,h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+}
+
+.card_icon{
+  width: 40px;
+  height: 40px;
+}
+
+.card_title{
+  display: flex;
+  align-items: center;
+}
+
+.card_item{
+  margin-bottom: 10px;
+}
+
+.card_subtitle{
+  font-weight: 600;
+}
+
+.card_text{
+  font-size: 20;
+}
